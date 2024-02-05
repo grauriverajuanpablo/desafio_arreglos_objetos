@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafío - Inmobiliaria</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/CSS/estilos.css" />
+    <!-- Bootstrap CDN -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <div class="container">
+        <a class="navbar-brand" href="./index.html">Inmobiliaria ADL</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarTogglerDemo02"
+          aria-controls="navbarTogglerDemo02"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <!-- <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li> -->
+            <li class="nav-item">
+              <a class="nav-link" href="ventas.html">En venta</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="alquiler.html">Alquiler</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <main class="container-fluid main-section">
+      <h1 class="text-white">Encuentra tu nueva propiedad</h1>
+    </main>
+    <div class="container mt-5">
+      <!-- Propiedades en venta -->
+      <section id="ventas">
+        <h2>Propiedades en venta</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="./assets/imgs/Casa1.png"
+                class="card-img-top"
+                alt="Imagen del casa"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                    Casa en La Serena
+                </h5>
+                <p class="card-text">
+                    Hermosa casa en la mejor ubicación de La Serena
+                </p>
+                <p>
+                  <i class="fas fa-map-marker-alt"></i> La Serena, Chile
+                </p>
+                <p>
+                  <i class="fas fa-bed"></i> 3 Habitaciones |
+                  <i class="fas fa-bath"></i> 2 Baños
+                </p>
+                <p><i class="fas fa-dollar-sign"></i> UF 4.700</p>
+                <p class="text-danger">
+                  <i class="fas fa-smoking-ban"></i> No se permite fumar
+                </p>
+                <p class="text-danger">
+                  <i class="fa-solid fa-ban"></i> No se permiten mascotas
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="./assets/imgs/Casa2.png"
+                class="card-img-top"
+                alt="Imagen del departamento"
+              />
+              <div class="card-body">
+                <h5 class="card-title">Casa Serena Oriente</h5>
+                <p class="card-text">
+                    Hermosa casa en La Serena
+                </p>
+                <p>
+                  <i class="fas fa-map-marker-alt"></i> la Serena, Chile
+                </p>
+                <p>
+                  <i class="fas fa-bed"></i> 4 Habitaciones |
+                  <i class="fas fa-bath"></i> 3 Baños
+                </p>
+                <p><i class="fas fa-dollar-sign"></i>UF 6.000</p>
+                <p class="text-success">
+                  <i class="fas fa-smoking"></i> Permitido fumar
+                </p>
+                <p class="text-success">
+                  <i class="fas fa-paw"></i> Mascotas permitidas
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="./assets/imgs/dpto_viña.png"
+                class="card-img-top"
+                alt="Imagen del departamento"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Departamento en Viña del mar
+                </h5>
+                <p class="card-text">
+                  Este hermoso departamento ofrece una terraza panorámica con
+                  vistas espectaculares
+                </p>
+                <p>
+                  <i class="fas fa-map-marker-alt"></i> viña del Mar, Valparaiso, Chile
+                </p>
+                <p>
+                  <i class="fas fa-bed"></i> 3 Habitaciones |
+                  <i class="fas fa-bath"></i> 3 Baños
+                </p>
+                <p><i class="fas fa-dollar-sign"></i> UF 4.500</p>
+                <p class="text-danger">
+                  <i class="fas fa-smoking-ban"></i> No se permite fumar
+                </p>
+                <p class="text-success">
+                  <i class="fas fa-paw"></i> Mascotas permitidas
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="./index.html" class="btn btn-dark"
+          >Ver todas las propiedades en venta</a
+        >
+      </section>
+      <hr />
+
+      <!-- Propiedades en alquiler -->
+      <section id="alquiler" class="mb-5">
+        <h2>Propiedades en alquiler</h2>
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="./assets/imgs/arriendo1.png"
+                class="card-img-top"
+                alt="renta casa"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Hermosa casa en Arriendo sector el Rosario de Peñuelas
+                </h5>
+                <p class="card-text">
+                    Casa Amoblada En Condominio El Santuario - Peñuelas Coquimbo
+                </p>
+                <p>
+                  <i class="fas fa-map-marker-alt"></i> Del Atardecer 4561, Coquimbo, Chile, Peñuelas, Coquimbo, Coquimbo
+                </p>
+                <p>
+                  <i class="fas fa-bed"></i> 5 Habitaciones |
+                  <i class="fas fa-bath"></i> 4 Baños
+                </p>
+                <p><i class="fas fa-dollar-sign"></i> $2.000.000</p>
+                <p class="text-danger">
+                  <i class="fas fa-smoking-ban"></i> No se permite fumar
+                </p>
+                <p class="text-success">
+                  <i class="fas fa-paw"></i> Mascotas permitidas
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="./assets/imgs/arriendo2.png"
+                class="card-img-top"
+                alt="Imagen del casa"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Lujosa casa en El Rosario
+                </h5>
+                <p class="card-text">
+                    Hermosa Casa De Dos Pisos En Sector Santuario De Peñuelas
+                </p>
+                <p>
+                  <i class="fas fa-map-marker-alt"></i> El Atardecer 4338, Coquimbo, Chile, Peñuelas, Coquimbo, Coquimbo
+                </p>
+                <p>
+                  <i class="fas fa-bed"></i> 4 Habitaciones |
+                  <i class="fas fa-bath"></i> 5 Baños
+                </p>
+                <p><i class="fas fa-dollar-sign"></i> $1.500.000</p>
+                <p class="text-success">
+                    <i class="fas fa-smoking"></i> Permitido fumar
+                  </p>
+                  <p class="text-success">
+                    <i class="fas fa-paw"></i> Mascotas permitidas
+                  </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card">
+              <img
+                src="./assets/imgs/arriendo3.png"
+                class="card-img-top"
+                alt="Imagen del departamento"
+              />
+              <div class="card-body">
+                <h5 class="card-title">
+                  Hermosa casa en San Joaquin La Serena
+                </h5>
+                <p class="card-text">
+                    Casa En Arriendo San Joaquin 4 Dorm. 3 Baños La Serena
+                </p>
+                <p>
+                  <i class="fas fa-map-marker-alt"></i> 123 Main Street,
+                  Anytown, CA 91234
+                </p>
+                <p>
+                  <i class="fas fa-bed"></i> 4 Habitaciones |
+                  <i class="fas fa-bath"></i> 3 Baños
+                </p>
+                <p><i class="fas fa-dollar-sign"></i> $980.000</p>
+                <p class="text-success">
+                    <i class="fas fa-smoking"></i> Permitido fumar
+                  </p>
+                  <p class="text-success">
+                    <i class="fas fa-paw"></i> Mascotas permitidas
+                  </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="./index.html" class="btn btn-dark"
+          >Ver todas las propiedades en alquiler</a
+        >
+      </section>
+    </div>
+    <!-- Font awesome -->
+    <script src="./assets/JS/index.js"></script>
+    <!-- Bootstrap JS -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

@@ -1,0 +1,39 @@
+/* Agrega estilos para las propiedades en venta y alquiler */
+.propiedad {
+    border: 1px solid #ddd; /* Borde del contenedor */
+    padding: 15px; /* Espaciado interno */
+    margin: 15px; /* Margen exterior */
+    text-align: center; /* Centra el contenido */
+  }
+
+  .propiedad img {
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    height: auto; /* Hace que la altura de la imagen se ajuste automáticamente */
+    border-radius: 8px; /* Bordes redondeados para las imágenes */
+    margin-bottom: 10px; /* Espaciado inferior para separar la imagen del texto */
+  }
+
+
+
+
+
+
+.main-section {
+    background-image: url('../img/img-main.jpeg');
+    background-size: cover; /* La imagen cubrirá todo el ancho y largo */
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-align: center;
+}
+
+.card {
+    height: 100px;
+}
+
+.card img{
+    height: 250px;
+}
